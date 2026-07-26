@@ -1,0 +1,220 @@
+---
+title: Riku - Aqua
+originalAuthor: Cagaroo
+description: Aqua makes her splash debut in Dream Drop Distance! Replaces Riku in most contexts. Includes retargetted BBS animations and voicelines. 
+assets:
+# Overworld
+  - name: chara\pc\p_ex02\mig\0\bin\p_ex020.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_pc\1-p_ex020.pmo
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\p_ex020_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\p_ex020_00.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\p_ex020_01.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\p_ex020_01.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\p_ex020_E.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\p_ex020_E.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\p_ex020_M.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\p_ex020_M.dds
+  - name: chara\pc\p_ex02\mig\0\bin\p_ex020.txa
+#    multi:
+#      - name: chara\pc\p_ex02\mig\0\bin\p_ex020d.txa
+#      - name: chara\pc\p_ex02\mig\0\bin\p_ex020j.txa
+#      - name: chara\pc\p_ex02\mig\0\bin\p_ex020r.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\470-p_ex020.txa
+  - name: chara\pc\p_ex02\mig\0\bin\p_ex020d.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\322-p_ex020d.txa
+  - name: chara\pc\p_ex02\mig\0\bin\p_ex020j.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\84-p_ex020j.txa
+  - name: chara\pc\p_ex02\mig\0\bin\p_ex020r.txa
+    method: copy
+    source:
+      - name: 3ds\chara_pc\276-p_ex020r.txa
+  - name: chara\pc\p_tl07\mig\0\bin\p_tl070.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_pc\236-p_tl070.pmo
+  - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\p_tl070_00.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_tl070\p_tl070_00.dds
+# Weapons
+  - name: chara\wep\w_ri14\mig\0\bin\w_ri140.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\161-w_ri140.pmo
+  - name: chara\wep\w_ex14\mig\1\bin\w_ri141.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\3-w_ri141.pmo
+  - name: chara\wep\w_ri05\mig\0\bin\w_ri050.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\171-w_ri050.pmo
+  - name: chara\wep\w_ex05\mig\1\bin\w_ri051.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_wep\88-w_ri051.pmo
+  - name: remastered/item/jp/bin/it021f.ctt/it021f.dds
+    multi:
+      - name: remastered/item/jp/bin/it021ft.ctt/it021ft.dds
+    method: copy
+    source:
+      - name: remastered/item/it021f.dds
+  - name: remastered/item/jp/bin/it0213.ctt/it0213.dds
+    multi:
+      - name: remastered/item/jp/bin/it0213t.ctt/it0213t.dds
+    method: copy
+    source:
+      - name: remastered/item/it0213.dds
+# HUD
+  - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\US_face_000.png
+    multi:
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\FR_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\GR_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\IT_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\JP_face_000.png
+      - name: remastered\menu\en\ckpt\gage\hp_p\bin\gage_000_n.l2d\SP_face_000.png
+    method: copy
+    source:
+      - name: remastered\menu\US_face_000.dds 
+# Sounds
+  - name: sound\en\output\VOICE\BATTLE\vo_rk.win32.scd
+    method: copy
+    source:
+      - name: remastered\vo_rk.win32.scd
+# Animations
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_001.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/57-p_ex02_001.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_003.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/195-p_ex02_003.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_009.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/27-p_ex02_009.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_101.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/295-p_ex02_101.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_103.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/570-p_ex02_103.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_106.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/108-p_ex02_106.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_110.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/256-p_ex02_110.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_113.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/118-p_ex02_113.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_114.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/000-p_ex02_114.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_115.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/000-p_ex02_115.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_118.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/138-p_ex02_118.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_124.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/5-p_ex02_124.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_127.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/147-p_ex02_127.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_129.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/567-p_ex02_129.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_132.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/151-p_ex02_132.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_143.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/237-p_ex02_143.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_144.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/467-p_ex02_144.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_145.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/515-p_ex02_145.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_146.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/384-p_ex02_146.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_150.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/524-p_ex02_150.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_160.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/249-p_ex02_160.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_401.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/463-p_ex02_401.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_402.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/318-p_ex02_402.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_403.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/381-p_ex02_403.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_404.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/51-p_ex02_404.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_405.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/63-p_ex02_405.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_406.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/233-p_ex02_406.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_407.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/200-p_ex02_407.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_408.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/479-p_ex02_408.pam
+  - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_900.pam
+    method: copy
+    source:
+      - name: 3ds/chara_pc/301-p_ex02_900.pam
