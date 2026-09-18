@@ -3,7 +3,102 @@ title: Riku - Aqua
 originalAuthor: Cagaroo
 description: >-
     Aqua makes her splash debut in Dream Drop Distance! Replaces Riku in most contexts. Includes retargetted BBS animations and voicelines. 
+preferences:
+  - title: Accessories (Crown)
+    key: crownStyle
+    description: Select a Crown style
+    type: options
+    options:
+      - "None"
+      - "Tiara"
+      - "Royal"
+      - "Venus"
+    value: "none"
+  - title: Accessories (Wings)
+    key: wingsStyle
+    description: Select a style of Wings
+    type: options
+    options:
+      - "None"
+      - "Iron"
+      - "Astral"
+      - "Radiant"
+    value: "none"
+
 assets:
+## Accessories
+# Crown
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\h_ex020_00.dds
+    multi:
+      - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
+    method: copy
+    condition:
+      key: crownStyle
+      value: "Tiara"
+    source:
+      - name: remastered\chara_pc\accessories\tiara.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\h_ex020_00.dds
+    multi:
+      - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
+    method: copy
+    condition:
+      key: crownStyle
+      value: "Royal"
+    source:
+      - name: remastered\chara_pc\accessories\royal.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\h_ex020_00.dds
+    multi:
+      - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
+    method: copy
+    condition:
+      key: crownStyle
+      value: "Venus"
+    source:
+      - name: remastered\chara_pc\accessories\venus.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\h_ex020_00.dds
+    multi:
+      - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
+    method: copy
+    condition:
+      key: crownStyle
+      value: "none"
+    source:
+      - name: remastered\chara_pc\accessories\none.png
+      
+# Wings
+  - name: chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo
+    method: copy
+    source:
+      - name: 3ds\chara_f_obj\375-f_ex010.pmo
+  - name: remastered\chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo\f_ex010_00.dds
+    method: copy
+    condition:
+      key: wingsStyle
+      value: "Iron"
+    source:
+      - name: remastered\chara_f_obj\f_ex010\iron.dds
+  - name: remastered\chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo\f_ex010_00.dds
+    method: copy
+    condition:
+      key: wingsStyle
+      value: "Astral"
+    source:
+      - name: remastered\chara_f_obj\f_ex010\astral.dds
+  - name: remastered\chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo\f_ex010_00.dds
+    method: copy
+    condition:
+      key: wingsStyle
+      value: "Radiant"
+    source:
+      - name: remastered\chara_f_obj\f_ex010\radiant.dds
+  - name: remastered\chara\f_obj\f_ex01\mig\0\bin\f_ex010.pmo\f_ex010_00.dds
+    method: copy
+    condition:
+      key: wingsStyle
+      value: "none"
+    source:
+      - name: remastered\chara_f_obj\f_ex010\none.dds
+
 ## Overworld
   - name: chara\pc\p_ex02\mig\0\bin\p_ex020.pmo
     method: copy
@@ -25,10 +120,6 @@ assets:
     method: copy
     source:
       - name: remastered\chara_pc\p_ex020\p_ex020_M.dds
-  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.pmo\h_ex020_00.dds
-    method: copy
-    source:
-      - name: remastered\chara_pc\p_ex020\h_ex020_00.dds
   - name: chara\pc\p_ex02\mig\0\bin\p_ex020.txa
     method: copy
     source:
@@ -59,10 +150,6 @@ assets:
     method: copy
     source:
       - name: remastered\chara_pc\p_tl070\p_tl070_01.dds
-  - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\h_tl070_01.dds
-    method: copy
-    source:
-      - name: remastered\chara_pc\p_tl070\h_tl070_01.dds
   - name: remastered\chara\pc\p_tl07\mig\0\bin\p_tl070.pmo\p_tl070_E.dds
     method: copy
     source:
