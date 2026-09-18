@@ -13,7 +13,7 @@ preferences:
       - "Tiara"
       - "Royal"
       - "Venus"
-    value: "none"
+    value: "None"
   - title: Accessories (Wings)
     key: wingsStyle
     description: Select a style of Wings
@@ -23,7 +23,7 @@ preferences:
       - "Iron"
       - "Astral"
       - "Radiant"
-    value: "none"
+    value: "None"
 
 assets:
 ## Accessories
@@ -61,7 +61,7 @@ assets:
     method: copy
     condition:
       key: crownStyle
-      value: "none"
+      value: "None"
     source:
       - name: remastered\chara_pc\accessories\none.png
       
