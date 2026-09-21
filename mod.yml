@@ -123,19 +123,36 @@ assets:
   - name: chara\pc\p_ex02\mig\0\bin\p_ex020.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\470-p_ex020.txa
+      - name: remastered\chara_pc\p_ex020\p_ex020.txa
   - name: chara\pc\p_ex02\mig\0\bin\p_ex020r.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\276-p_ex020r.txa
+      - name: remastered\chara_pc\p_ex020\p_ex020r.txa
   - name: chara\pc\p_ex02\mig\0\bin\p_ex020j.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\84-p_ex020j.txa
+      - name: remastered\chara_pc\p_ex020\p_ex020j.txa
   - name: chara\pc\p_ex02\mig\0\bin\p_ex020d.txa
     method: copy
     source:
-      - name: 3ds\chara_pc\322-p_ex020d.txa
+      - name: remastered\chara_pc\p_ex020\p_ex020d.txa
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.txa\p_ex020_Ea.dds
+    multi:
+    - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020d.txa\p_ex020_Ea.dds
+    - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020j.txa\p_ex020_Ea.dds
+    - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020r.txa\p_ex020_Ea.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\p_ex020_Ea.dds
+  - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020.txa\p_ex020_Ma.dds
+    multi:
+    - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020d.txa\p_ex020_Ma.dds
+    - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020j.txa\p_ex020_Ma.dds
+    - name: remastered\chara\pc\p_ex02\mig\0\bin\p_ex020r.txa\p_ex020_Ma.dds
+    method: copy
+    source:
+      - name: remastered\chara_pc\p_ex020\p_ex020_Ma.dds
+
 
 ## The Grid
   - name: chara\pc\p_tl07\mig\0\bin\p_tl070.pmo
