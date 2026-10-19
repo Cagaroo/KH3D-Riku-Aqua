@@ -198,6 +198,12 @@ assets:
     source:
       - name: remastered\vo_rk.win32.scd
       
+## Game
+  - name: chara\pc\p_ex02\bin\w_ri01.tcd
+    method: copy
+    source:
+      - name: 3ds\chara_pc\235-w_ri01.tcd
+      
 ## Animations
   - name: chara\pc\p_ex02\anm\rt\bin\p_ex02_001.pam
     method: copy
